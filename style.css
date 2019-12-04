@@ -4,14 +4,13 @@
 }
 
 body {
-	background-color: none;
+	background-color: #d3d3d3;
 	background-repeat: no-repeat;
 	background-blend-mode: all;
 	background-size: 750px;
 	background-attachment: ;
 	background-position:top;
 	background-image: url(images/mountaintop.JPG);
-
 }
 
 nav img {
@@ -81,15 +80,11 @@ nav ul li ul li a:hover {
 	background-color: #f3f3f3;
 }
 
-iframe {
-	width: 100%;
-	height: 10px;
-	scroll-behavior: ;
-	padding: 0;
-	scroll-behavior: auto;
-	image-rendering: cover; 
-
-
+.map {
+	height: 600px;
+	width: 1000px;
+	margin: 20px;
+	align-content: right;
 
 }
 
@@ -99,34 +94,62 @@ header {
 	font-family: sans-serif;
 }
 
-
-h2 {
-	di 
-}
-
 table {
-	background-color: #f3f3f3
-	padding:20px;
+	background-color: #f3f3f3;
 	margin: 50px;
-	width: 50px;
-	height: 100px;
+	padding: 2px;
+	border-style: solid;
+	border-radius: 4px;
 }
 
-section p {
+table tr td {
+	padding: 10px;
+
+}
+
+.description {
+	margin: 20px;
+	display: block;
+	background-color: #fff;
+	padding: 20px;
+
 
 }
 
 .heading-title {
 	margin-top: 300px;
 	display: block;
+	padding: 20px;
+	text-align: center;
+
+
+}
+
+.secondary {
+	margin: 20px;
+	display: block;
+	background-color: #fff;
+	padding: 20px; 
 
 }
 
 footer {
 	display: block;
-	background-color: grey
+	background-color: grey;
+	text-align: center;
+
 
 }
 
+.table {
+	background-color: #fff;
+	display: block;
+	margin: 20px;
+	padding: 20px;
+
+
+}
+
+.
 
 
