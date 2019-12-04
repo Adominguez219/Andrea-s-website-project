@@ -4,8 +4,14 @@
 }
 
 body {
-	background-image
+	background-image: url(images/airplane.JPG);
 	background-size: 100%;
+}
+
+nav img {
+	float: left;
+	height: 60px;
+
 }
 
 nav {
@@ -15,7 +21,7 @@ nav {
 }
 
 nav p {
-	font-family: arial;
+	font-family: cursive;
 	color: black;
 	font-size: 24px;
 	line-height: 55px;
@@ -25,6 +31,8 @@ nav p {
 
 nav ul {
 	float: left;
+	margin: 10px;
+
 }
 
 nav ul li {
@@ -66,3 +74,15 @@ nav ul li ul li a:hover {
 	padding:8px 14px;
 	background-color: #f3f3f3;
 }
+
+iframe {
+	width: 100%;
+	height: 300px;
+	scroll-behavior: ;
+	padding: 0;
+	scroll-behavior: auto;                                 
+
+
+}
+
+
