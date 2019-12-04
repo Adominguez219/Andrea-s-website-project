@@ -7,11 +7,10 @@ body {
 	background-color: none;
 	background-repeat: no-repeat;
 	background-blend-mode: all;
-	background-size: 100%;
+	background-size: 750px;
 	background-attachment: ;
 	background-position:top;
 	background-image: url(images/mountaintop.JPG);
-	page-break-after: ;
 
 }
 
@@ -105,8 +104,12 @@ h2 {
 	di 
 }
 
-table iframe {
-	b
+table {
+	background-color: #f3f3f3
+	padding:20px;
+	margin: 50px;
+	width: 50px;
+	height: 100px;
 }
 
 section p {
@@ -114,9 +117,14 @@ section p {
 }
 
 .heading-title {
-	margin-top: 600px;
+	margin-top: 300px;
 	display: block;
 
+}
+
+footer {
+	display: block;
+	background-color: grey
 
 }
 
