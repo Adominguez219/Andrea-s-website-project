@@ -7,7 +7,7 @@ body {
 	background-color: #d3d3d3;
 	background-repeat: no-repeat;
 	background-blend-mode: all;
-	background-size: 750px;
+	background-size: 1500px;
 	background-attachment: ;
 	background-position:top;
 	background-image: url(images/mountaintop.JPG);
@@ -115,7 +115,7 @@ table tr td {
 }
 
 .heading-title {
-	margin-top: 300px;
+	margin-top: 650px;
 	display: block;
 	padding: 20px;
 	text-align: center;
