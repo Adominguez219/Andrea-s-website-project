@@ -50,9 +50,11 @@ nav ul li a {
 	display: block;
 	font-family: sans-serif;
 	color: #222;
-	font-size: 30px;
+	font-size: 50px;
 	padding: 14px 20px;
 	text-decoration: none;
+	line-height: 150px;
+	vertical-align: center;
 }
 
 nav ul li ul {
@@ -162,8 +164,8 @@ footer {
 }
 
 .logo {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 
 }
 
@@ -184,11 +186,6 @@ footer {
 	 h1 {
 		text-align: center;
 	}
-
-	iframe .map {
-		max-width: 400px;
-	}
-	 	
 }
 
 @media (min-width: 481px) and (max-width: 540px){
@@ -202,10 +199,6 @@ footer {
 
 	h1 {
 		text-align: center;
-	}
-
-	iframe {
-		max-width: 450px;
 	}
 }
 
@@ -222,10 +215,6 @@ footer {
 	h1 {
 		text-align: center;
 	}
-
-	iframe {
-		max-width: 768px;
-	}
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -241,11 +230,8 @@ footer {
 	h1 {
 		text-align: center;
 	}
-
-	iframe {
-		max-width: 1024px;
-	}
 }
+
 
 @media (min-width: 1025px) and (max-width: 1200px){
 	body {
@@ -277,20 +263,6 @@ footer {
 	h1 {
 		text-align: center;
 	}
-
-	.solo {
-		width: 100%;
-		height: 0;
-		padding-bottom: 70%;
-		position: relative;
-	}
-
-	.solo iframe {
-		position: absolute;
-		width: 100%;
-		height: 100%
-	}
-
 	
 
 }
