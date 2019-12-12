@@ -169,5 +169,13 @@ footer {
 	font-size: 100px;
 }
 
+@media (max-width: 480px) {
+	nav {
+		float: none;
+		width: 100%;
+
+	}
+}
+
 
 
