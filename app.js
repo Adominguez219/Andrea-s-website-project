@@ -3,11 +3,11 @@ const navSlide = () => {
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
 	//toggle Nav
-	burger.addEventListner('click', () => {
+	burger.addEventListener('click', () => {
 		
 		nav.classList.toggle('nav-active');
 
-		nsvLinks.forEach((link, index) => {
+		navLinks.forEach((link, index) => {
 			if (link.style.animation) {
 				link.style.animation = ''; 
 			} else {
